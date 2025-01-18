@@ -9,6 +9,7 @@ class CurrencyConverterApp:
         self.root = tk.Tk()
         self.root.title("Currency Converter")
         self.root.geometry("300x300")
+        self.root.resizable(False,False)
 
         self.create_widgets()
 
