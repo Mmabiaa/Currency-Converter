@@ -1,6 +1,6 @@
 # Currency Converter
 
-Welcome to the **Currency Converter** application! This project is a simple yet effective tool for converting between various currencies using Python's Tkinter library for the graphical user interface (GUI). 
+Welcome to the **Currency Converter** application! This project is a simple yet effective tool for converting between various currencies using Python's Tkinter library for the graphical user interface (GUI).
 
 ## Features
 
@@ -21,17 +21,22 @@ To get started with the Currency Converter application, follow these steps:
 
 1. **Clone the Repository**:
    Open your terminal or command prompt and run:
-`git clone https://github.com/mmabiaa/currency-converter.git`
-
+   `git clone https://github.com/mmabiaa/currency-converter.git`
 
 2. **Navigate to the Project Directory**:
-`cd currency-converter`
+   `cd currency-converter`
 
+3. **Get Your Api Key**:
+   Visit below link and sign up to get api key
+   `https://apilayer.com/marketplace/exchangerates_data-api?utm_source=apilayermarketplace&utm_medium=featured`
 
-3. **Run the Application**:
-Execute the following command:
-`python main.py`
+4. **Place your api key**
+   goto `converter.py` and in line 7 place your api key
+   `"apikey": "<your_api_key>"`
 
+5. **Run the Application**:
+   Execute the following command:
+   `python main.py`
 
 ## Usage
 
